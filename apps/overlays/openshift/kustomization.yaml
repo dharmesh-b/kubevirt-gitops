@@ -5,9 +5,9 @@ namespace: openshift-gitops
 resources:
 #- ocpvirt.yaml
 - ../../base/
+- gitops-rbac.yaml
 
 patchesStrategicMerge:
 #- datavolumes-application.yaml
 - vms-application.yaml
-- gitops-rbac.yaml
 #- win2k19-application.yaml
