@@ -6,7 +6,7 @@ resources:
 - ocpvirt.yaml
 - ../../base/
 
-patchesStrategicMerge:
-- datavolumes-application.yaml
+patch:
+#- datavolumes-application.yaml
 - vms-application.yaml
-- win2k19-application.yaml
+#- win2k19-application.yaml
