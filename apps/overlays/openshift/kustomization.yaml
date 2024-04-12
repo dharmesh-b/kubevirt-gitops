@@ -9,4 +9,5 @@ resources:
 patchesStrategicMerge:
 #- datavolumes-application.yaml
 - vms-application.yaml
+- gitops-rbac.yaml
 #- win2k19-application.yaml
