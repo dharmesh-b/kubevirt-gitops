@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     path: vms/overlays/kubernetes
-    repoURL: https://github.com/dharmesh-bkubevirt-gitops.git
+    repoURL: https://github.com/dharmesh-b/kubevirt-gitops.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
