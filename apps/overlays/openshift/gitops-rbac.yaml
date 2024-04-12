@@ -66,5 +66,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: openshift-gitops-argocd-application-controller
- #namespace: openshift-gitops
-  namespace: kubevirt-gitops
+  namespace: openshift-gitops
