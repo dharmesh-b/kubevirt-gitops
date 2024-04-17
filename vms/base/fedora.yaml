@@ -36,7 +36,8 @@ spec:
       source:
         pvc:
           name: fedora-custom
-          namespace: openshift-virtualization-os-images
+          #namespace: openshift-virtualization-os-images
+          namespace: kubevirt-os-images
   running: true
   template:
     metadata:
